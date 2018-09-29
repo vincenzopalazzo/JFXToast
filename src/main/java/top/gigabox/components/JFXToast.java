@@ -94,7 +94,7 @@ public class JFXToast {
 
         //set position toast
         if (position == BUTTON) {
-            toastStage.setY(ownerStage.getY() + (ownerStage.getHeight()));
+            toastStage.setY(ownerStage.getY() + (ownerStage.getHeight()) - 20);
             toastStage.setX(ownerStage.getX() + ((ownerStage.getWidth() / 2) - (toastStage.getWidth() / 2)));
         } else {
             toastStage.setY(ownerStage.getY() + 10);
